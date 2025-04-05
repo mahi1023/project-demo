@@ -56,7 +56,7 @@ services:
       - "8080:8080"
     depends_on:
       - postgres-course
-      - kafka
+      # - kafka
     networks:
       - app-network
       
@@ -73,7 +73,7 @@ services:
       - "8081:8081"
     depends_on:
       - postgres-course
-      - kafka
+      # - kafka
     restart: always
     networks:
       - app-network
