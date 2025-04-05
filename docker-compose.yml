@@ -45,7 +45,7 @@ services:
 
   course-service:
     build:
-      context: /home/azureuser/courseLearning/project-demo/course-service 
+      context: /home/azureuser/project-demo/course-service 
       dockerfile: Dockerfile     
     container_name: course-service
     environment:
@@ -62,7 +62,7 @@ services:
       
   enrollement-service:
     build:
-     context: /home/azureuser/courseLearning/project-demo/enrollement-service
+     context: /home/azureuser/project-demo/enrollement-service
      dockerfile: Dockerfile  
     container_name: enrollement-service
     environment:
