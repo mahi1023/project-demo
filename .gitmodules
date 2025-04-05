@@ -1,0 +1,6 @@
+[submodule "course-service"]
+	path = course-service
+	url = https://github.com/mahi1023/course-service.git
+[submodule "enrollement-service"]
+	path = enrollement-service
+	url = https://github.com/mahi1023/enrollement-service.git

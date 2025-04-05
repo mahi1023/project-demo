@@ -1,0 +1,17 @@
+.metadata/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Eclipse project files (optional)
+.project
+.classpath
+
+# Build output
+/bin/
+/build/
+/target/
+
+# Java stuff
+*.class
